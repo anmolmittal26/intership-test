@@ -2,14 +2,15 @@
 using namespace std;
 #define ll long long
 #define fast ios_base::sync_with_stdio(false);cin.tie(0)
-#define File freopen("filteredCountry.csv" , "r" , stdin); freopen("lowestPrice.csv" , "w" , stdout)
 #define mod 1000000007
 #define pi pair<ll, ll>
 #define pb(x) push_back(x);
 
 void read_record() {
 
-  File;
+  freopen("filteredCountry.csv" , "r" , stdin);
+  freopen("lowestPrice.csv" , "w" , stdout);
+  
   std::string row = "";
   ll k = 0;
   std::vector<std::string> v;
