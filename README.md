@@ -1,3 +1,3 @@
-** Solution to Problem statement by ANMOL MITTAL **
+- Solution to Problem statement by ANMOL MITTAL
 
 
