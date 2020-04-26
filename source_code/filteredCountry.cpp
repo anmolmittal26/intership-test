@@ -8,9 +8,9 @@ using namespace std;
 
 void read_record() {
 
-  freopen("filteredCountry.csv" , "r" , stdin);
-  freopen("lowestPrice.csv" , "w" , stdout);
-  
+  freopen("main.csv" , "r" , stdin);
+  freopen("filteredCountry.csv" , "w" , stdout);
+
   std::string row = "";
   ll k = 0;
   std::vector<std::string> v;
