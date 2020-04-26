@@ -9,7 +9,9 @@ using namespace std;
 
 void read_record() {
 
-  File;
+  freopen("filteredCountry.csv" , "r" , stdin);
+  freopen("lowestPrice.csv" , "w" , stdout);
+  
   std::map<ll, multiset<double>> mp;
   std::string row = "";
   ll k = 0;
